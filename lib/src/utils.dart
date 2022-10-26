@@ -5,7 +5,7 @@ import 'dart:async';
 import 'package:http/http.dart';
 import 'package:meta/meta.dart';
 
-final kGMapsUrl = Uri.parse('https://maps.googleapis.com/maps/api');
+final kGMapsUrl = Uri.parse('https://us-central1-cambio-dev-281715.cloudfunctions.net/cors-anywhere?u=https://maps.googleapis.com/maps/api');
 
 abstract class GoogleWebService {
   @protected
